@@ -18,6 +18,8 @@ class Player {
         }
         // update every frame
         update(){
+
+            
             // updates position y and bottom every frame and adds velocity if bottom is less than height of canvas
             this.position.y = this.position.y + this.velocity;
             this.bottom = this.position.y + this.height;
